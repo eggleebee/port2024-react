@@ -20,3 +20,8 @@ export const headerNav = [
         url: "#contact"
     }
 ];
+
+export const introText = {
+    title: "A web publisher , that constantly , works hard",
+    desc: ["UI/UX", "publishing & Front-end & BACK-end", "etc"]
+}
