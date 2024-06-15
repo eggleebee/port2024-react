@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { headerNav } from "../constants/data"
+import { Link } from "react-router-dom";
 
 console.log(headerNav)
 
@@ -19,12 +20,21 @@ const Header = () => {
             <a href="/">portfolio<em>react.js</em></a>
           </h1>
         </div>
+        
+        {/* 라우팅 & Link 테스트 */}
+        <div>
+          <div><Link to="/a">소개</Link></div>
+          <div><Link to="/w">작업물</Link></div>
+        </div>
+        {/* 라우팅 & Link 테스트 */}
+
         <nav
           className={`header__nav ${show ? "show" : ""}`}
           role="navigation"
           aria-label="메인메뉴"
         >
           <ul>
+
             {
               headerNav.map((nav, key) => (
                 <li key={key}>
@@ -43,7 +53,7 @@ const Header = () => {
           tabIndex="0"
 
           /* onClick={() => setShow((prevShow) => !prevShow)} */
-          
+
           onClick={toggleMenu}
         >
           <span></span>
