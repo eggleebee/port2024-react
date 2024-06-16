@@ -9,6 +9,7 @@ import FirstPage from './FirstPage';
 import Second from './Second';
 import About from "./components/About";
 import Works from "./components/Works";
+import Intro from "./components/Intro";
 
 const App = () => {
 
@@ -19,7 +20,8 @@ const App = () => {
 
     return (
 
-        <HomeView />
+        
+        <Intro />
     );
 };
 
