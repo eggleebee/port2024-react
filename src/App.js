@@ -20,10 +20,12 @@ const App = () => {
 
     return (
 
-        <div>
-            화면에 출력되는 내용
-            <Intro />
-        </div>
+        <BrowserRouter>
+            화면에 출력
+            <Routes>
+                <Route path="/" element={<HomeView />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 
