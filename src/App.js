@@ -20,7 +20,7 @@ const App = () => {
 
     return (
 
-        
+        화면에 출력되는 내용
         <Intro />
     );
 };
