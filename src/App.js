@@ -5,6 +5,7 @@ import About from "./components/About";
 
 import smooth from "./utils/smooth"
 import link from "./utils/link"
+import Header from "./components/Header";
 
 const App = () => {
 
@@ -17,10 +18,7 @@ const App = () => {
         <BrowserRouter>
             <switch>
                 <Routes>
-                    <Route path="/" element={<HomeView />} />
-                </Routes>
-                <Routes>
-                    <Route path="/a" element={<About />} />
+                    <Route path="" element={<Header />} />
                 </Routes>
             </switch>
         </BrowserRouter>
