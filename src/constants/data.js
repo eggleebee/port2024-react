@@ -192,6 +192,37 @@ export const portText = [
         view: "https://",
         name: "맥도날드",
     },
-   
-    
+];
+
+export const contactText = [
+    {
+        link: "https://open.kakao.com/o/gM7YLzwf",
+        title: "KAKAO : eggleee",
+    },
+    {
+        link: "mailto:rani1791@naver.com",
+        title: "mail : rani1791@naver.com",
+    },
+    {
+        link: "",
+        title: "phone : 010-1234-5678",
+    },
+];
+
+export const footerText = [
+    {
+        title: "github",
+        desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
+        link: "https://",
+    },
+    {
+        title: "Notion",
+        desc: "노션에 오시면 더 많은 프로젝트를 볼 수 있습니다.",
+        link: "https://",
+    },
+    {
+        title: "velog",
+        desc: "벨로그에 오시면 더 많은 정보를 볼 수 있습니다.",
+        link: "https://",
+    },
 ];
