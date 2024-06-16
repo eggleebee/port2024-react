@@ -21,7 +21,6 @@ const App = () => {
     return (
 
         <BrowserRouter>
-            화면에 출력
             <Routes>
                 <Route path="/" element={<HomeView />} />
             </Routes>
