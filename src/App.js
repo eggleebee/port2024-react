@@ -18,7 +18,7 @@ const App = () => {
         <BrowserRouter>
             <switch>
                 <Routes>
-                    <Route path="" element={<Header />} />
+                    <Route path="./" element={<Header />} />
                 </Routes>
             </switch>
         </BrowserRouter>
