@@ -1,3 +1,20 @@
+/* 
+Import in body of module; reorder to top  import/first
+모듈을 모두 import하기전에 변수, 상수를 선언하면 발생하는 에러
+import 최상단에 작성할것!!!
+*/
+
+import port01 from "../assets/img/port01.jpg";
+import port02 from "../assets/img/port02.jpg";
+import port03 from "../assets/img/port03.jpg";
+import port04 from "../assets/img/port04.jpg";
+import port05 from "../assets/img/port05.jpg";
+import port06 from "../assets/img/port06.jpg";
+import port07 from "../assets/img/port07.jpg";
+import port08 from "../assets/img/port08.jpg";
+import port09 from "../assets/img/port09.jpg";
+import port10 from "../assets/img/port10.jpg";
+
 export const headerNav = [
     {
         title: "intro",
@@ -68,3 +85,113 @@ export const skillText = [
         desc: "풀리지 않는 문제에 대해 끊임없이 고민하고 몰두합니다.포기하지 않고 꾸준히 나아갈 수 있는 끈기를 갖고 있습니다."
     }
 ]
+
+export const siteText = [
+    {
+        text: ["renewal", "Site compliant with", "Improved aesthetics"],
+        title: "심미성을 개선한 행복은 간장밥 리뉴얼",
+        figma: "https://",
+        code: "https://github.com/",
+        view: "https://",
+        info: [
+            "기여도 : 개인작업(기획, 디자인, 퍼블리싱)",
+            "작업기간 : 40시간/1주",
+            "기술스택 : 포토샵, 일러스트, 피그마, HTML, CSS, Javascript, Jquery, git",
+        ],
+    },
+    {
+        text: ["make", "site compliant with", "react.js"],
+        title: "○○○를 개선한 중미산 천문대 홈페이지 제작",
+        figma: "https://",
+        code: "https://github.com/",
+        view: "https://",
+        info: [
+            "기여도 : 퍼블리싱 100% + 개발 45%",
+            "작업기간 : 2주",
+            "기술스택 : 피그마, HTML5/CSS3, jQuery",
+        ],
+    },
+    {
+        text: ["make", "site compliant with", "vue.js"],
+        title: "○○○를 개선한 워터킹덤 홈페이지 제작",
+        figma: "https://",
+        code: "https://github.com/",
+        view: "https://",
+        info: [
+            "기여도 : 개인작업(기획, 디자인, 퍼블리싱)",
+            "작업기간 : 2주",
+            "기술스택 : 피그마, HTML5/CSS3, jQuery",
+        ],
+    },
+    {
+        text: ["make", "site compliant with", "next.js"],
+        title: "○○○을 이용한 사이트 제작",
+        figma: "https://",
+        code: "https://github.com/",
+        view: "https://",
+        info: [
+            "site coding",
+            "production period : 2일",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+    },
+];
+
+export const portText = [
+    {
+        num: "01",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port01,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+    {
+        num: "02",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port02,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+    {
+        num: "03",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port03,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+    {
+        num: "04",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port04,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+    {
+        num: "05",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port05,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+    {
+        num: "06",
+        title: "클론코딩",
+        desc: "실제 서비스를 따라 만들면서 실무소스의 사용법과 다양한 기법을 익힌 포트폴리오입니다.",
+        img: port06,
+        code: "https://",
+        view: "https://",
+        name: "맥도날드",
+    },
+   
+    
+];
