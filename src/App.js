@@ -15,13 +15,16 @@ const App = () => {
     }, []);
 
     return (
-        <BrowserRouter>
-            <switch>
+        <div>
+            확인
+            <BrowserRouter>
+
                 <Routes>
-                    <Route path="./" element={<Header />} />
+                    <Route path="/" element={<Header />} />
                 </Routes>
-            </switch>
-        </BrowserRouter>
+
+            </BrowserRouter>
+        </div>
     );
 };
 
