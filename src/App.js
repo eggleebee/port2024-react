@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Route, Routes, Linㅏ } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import About from "./components/About";
 
@@ -23,7 +23,7 @@ const App = () => {
                 </ul>
 
                 <Routes>
-                    <Route path="/" element={<Header />} />
+                    <Route path="/" element={<HomeView />} />
                 </Routes>
 
             </BrowserRouter>

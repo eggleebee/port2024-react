@@ -22,10 +22,10 @@ const Header = () => {
         </div>
         
         {/* 라우팅 & Link 테스트 */}
-        <div>
+        {/* <div>
           <div><Link to="/a">소개</Link></div>
           <div><Link to="/w">작업물</Link></div>
-        </div>
+        </div> */}
         {/* 라우팅 & Link 테스트 */}
 
         <nav
