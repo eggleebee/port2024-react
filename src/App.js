@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Linㅏ } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import About from "./components/About";
 
@@ -16,8 +16,11 @@ const App = () => {
 
     return (
         <div>
-            확인
+
             <BrowserRouter>
+                <ul style={{ position: "absolute", bottom: 0, zIndex: 10001, backgroundColor: "black", color: "white" }}>
+                    <li><Link to="/">포트폴리오</Link></li>
+                </ul>
 
                 <Routes>
                     <Route path="/" element={<Header />} />
